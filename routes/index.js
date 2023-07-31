@@ -15,7 +15,7 @@ var car = new mongoose.Schema({
 main().catch(err => console.log(err));
 
 async function main() {
-  const db= "mongodb+srv://admin:Rgm7eLFXq4uxCySw@fpoly.nmoo5ba.mongodb.net/test"
+  const db= "mongodb+srv://admin:aofe4fKL7NSjUmvE@fpoly.nmoo5ba.mongodb.net/test"
   await mongoose.connect(db);
 
 }
